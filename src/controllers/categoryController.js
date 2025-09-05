@@ -1,4 +1,4 @@
-const categoryService = require('../services/expenseService');
+const categoryService = require('../services/categoryService.js');
 
 const getAllController = async (req, res) => {
   const categories = await categoryService.getAll();
